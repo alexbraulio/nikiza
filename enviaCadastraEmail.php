@@ -3,7 +3,7 @@
 // Passando os dados obtidos pelo formulário para as variáveis abaixo
 $emailreferente = 'SITE NIKIZA';
 $emailremetente    = trim($_POST['emailremetente']);
-$emaildestinatario = 'contato@nikiza.xyz','nikizadistribuidora@gma'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
+$emaildestinatario = 'contato@nikiza.xyz'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
 
 $assunto          = 'NIKIZA MAIS UM CLIENTE  SE CADASTROU';
 
