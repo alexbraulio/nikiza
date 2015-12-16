@@ -406,10 +406,10 @@
                     <div class="block">
                         <h1 class=" heading wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms"> CADASTRE-SE PARA <span>RECEBER</span> NOSSAS PROMOÇÕES</h1>
                         <p class="wow fadeInUp" data-wow-duration="300ms" data-wow-delay="400ms">Mandamos e-mail com promoções espetaculares, Combos com preços imperdiveis, dicas de como usar e novidades</p>
-                        <form class="form-inline">
+                        <form action="enviaCadastraEmail.php" method="POST" class="form-inline">
                             <div class="form-group">
                                 <div class="input-group">
-                                    <input type="text" class="form-control" id="exampleInputAmount" placeholder="Entre com seu email...">
+                                    <input name="emailremetente" type="text" class="form-control" id="exampleInputAmount" placeholder="Entre com seu email...">
                                     <div class="input-group-addon">
                                         <button class="btn btn-default" type="submit">Cadastra.</button>
                                     </div>
