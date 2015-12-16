@@ -8,6 +8,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<!-- CSS
         ================================================ -->
+  
         <!-- Owl Carousel -->
 		<link rel="stylesheet" href="css/owl.carousel.css">
         <!-- bootstrap.min css -->
@@ -31,6 +32,17 @@
     <script src="js/plugins.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+function funcao1()
+{
+alert("E-mail Cadastrado!");
+}
+function funcao2()
+{
+alert("Mensagem enviada em breve retornaremos seu contato.");
+}
+</script>
+
     <style>
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
@@ -411,7 +423,7 @@
                                 <div class="input-group">
                                     <input name="emailremetente" type="text" class="form-control" id="exampleInputAmount" placeholder="Entre com seu email...">
                                     <div class="input-group-addon">
-                                        <button class="btn btn-default" type="submit">Cadastra.</button>
+                                        <button class="btn btn-default" onclick="funcao1()" type="submit">Cadastra.</button>
                                     </div>
                                 </div>
                             </div>
@@ -525,8 +537,8 @@
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1000ms">
                                 <textarea name="mensagem" class="form-control" rows="3" placeholder="Sua Mensagem..."></textarea>
                             </div>
-                            <a name="enviar" type="submit"  class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">Enviar Mensagem</a>
-                             <input class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" name="enviar" type="submit"  value="Enviar"   /> 
+                              <!--<a name="enviar" type="submit"  class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" href="#" role="button">Enviar Mensagem</a>--> 
+                           <input onclick="funcao2()" class="btn btn-default wow bounceIn" data-wow-duration="500ms" data-wow-delay="1300ms" name="enviar" type="submit"  value="Enviar"   />
                         </form>
                        
                     </div>
