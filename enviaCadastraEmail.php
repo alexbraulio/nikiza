@@ -12,10 +12,9 @@ $assunto          = 'NIKIZA MAIS UM CLIENTE  SE CADASTROU';
 /* Montando a mensagem a ser enviada no corpo do e-mail. */
 $mensagemHTML = '<P>FORMULARIO PREENCHIDO NO SITE WWW.NIKIZA.XYZ</P>
 
-<p><b>E-Mail:</b> '.$emailreferente.'
 
 <p><b>Assunto:</b> '.$assunto.'
-<p><b>Mensagem:</b> '.$emailremetente.'</p>
+<p><b>E-MAIL:</b> '.$emailremetente.'</p>
 <hr>';
 
 
